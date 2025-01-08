@@ -1,6 +1,4 @@
 import clsx from "clsx";
-import { deleteInvoice } from "@/app/lib/actions";
-import TrashIcon from "@heroicons/react/24/outline/TrashIcon";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 	children: React.ReactNode;

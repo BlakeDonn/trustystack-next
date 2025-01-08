@@ -27,7 +27,7 @@ export function UpdateInvoice({ id }: { id: string }) {
 
 export function DeleteInvoice({ id }: { id: string }) {
   const deleteInvoiceWithId = deleteInvoice.bind(null, id);
-  const handleDelete = async (formData: FormData) => {
+  const handleDelete = async () => {
     "use server";
     await deleteInvoiceWithId();
   };
